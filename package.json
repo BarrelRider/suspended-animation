@@ -1,0 +1,17 @@
+{
+  "name": "@suspended-animation/suspended-root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "yarn workspace @suspended-animation/suspended-client start"
+  },
+  "keywords": [],
+  "author": "Suat Ögme",
+  "private": true,
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ]
+}
